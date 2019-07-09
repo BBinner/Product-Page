@@ -24,7 +24,42 @@ body {
   margin-top: 25vh;
 }
 
-/*Test*/
+/* Concept */
+
+#concept {
+  background: url('../img/concept.jpeg') no-repeat center/cover;
+  height: 120vh;
+  margin: 0;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#cook-smart {
+  font-size: 1.75rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 580px) {
+  .lead {
+ 
+  .section-head {
+    padding-top: 1.2rem;
+  }
+}
+}
+
+/* Recipes */
+#recipes {
+  background: url('../img/recipes.jpg') no-repeat center/cover;
+  height: 100vh;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 580px) {
+  #recipes {
+    height: 130vh;
+  }
 
 /* Utility Classes */
 .container {
@@ -157,24 +192,3 @@ nav a#openup {
 }
 
 /* For IE 6/7 (trigger hasLayout) */
-
-#concept {
-  background: url('../img/food.jpeg') no-repeat center/cover;
-  height: 120vh;
-  margin: 0;
-  width: 100%;
-  overflow-y: hidden;
-}
-
-#cook-smart {
-  font-size: 1.75rem;
-  padding-top: 2rem;
-}
-
-@media screen and (max-width: 580px) {
-  .lead {
- 
-  .section-head {
-    padding-top: 1.2rem;
-  }
-}
