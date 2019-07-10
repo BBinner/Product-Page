@@ -8,8 +8,8 @@ body {
   line-height: 1.6;
 }
 
-/* Overview */
-#overview {
+/* Showcase, Overview */
+#showcase {
   margin:0;
   padding:0;
   padding-bottom: 15em;
@@ -20,7 +20,7 @@ body {
   overflow-y: hidden;
 }
 
-#overview .container {
+#showcase .container {
   margin-top: 25vh;
 }
 
@@ -34,32 +34,8 @@ body {
   overflow-y: hidden;
 }
 
-#cook-smart {
-  font-size: 1.75rem;
-  padding-top: 2rem;
-}
+/*Test*/
 
-@media screen and (max-width: 580px) {
-  .lead {
- 
-  .section-head {
-    padding-top: 1.2rem;
-  }
-}
-}
-
-/* Recipes */
-#recipes {
-  background: url('../img/recipes.jpg') no-repeat center/cover;
-  height: 100vh;
-  margin: 0;
-  overflow-y: hidden;
-}
-
-@media screen and (max-width: 580px) {
-  #recipes {
-    height: 130vh;
-  }
 
 /* Utility Classes */
 .container {
@@ -69,12 +45,12 @@ body {
   padding: 0 3rem;
 }
 
-#overview h1 {
+#showcase h1 {
   font-size: 4rem;
   margin-bottom: 0;
 }
 
-#overview h2 {
+#showcase h2 {
   font-size: 2rem;
 }
 
@@ -119,18 +95,18 @@ nav a#openup {
     display: none;
   }
 
-  #overview {
+  #showcase {
     height: 50vh;
   }
 
-  #overview .container {
+  #showcase .container {
     margin-top: 15vh;
   }
 
-  #overview h1 {
+  #showcase h1 {
     font-size: 3rem;
   }
-  #overview h2 {
+  #showcase h2 {
     font-size: 1.5rem;
   }
 
@@ -192,3 +168,40 @@ nav a#openup {
 }
 
 /* For IE 6/7 (trigger hasLayout) */
+
+#recipes {
+  background: url('../img/recipes.jpg') no-repeat center/cover;
+  height: 90vh;
+  margin: 0;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#cook-smart {
+  font-size: 1.75rem;
+  padding-top: 2rem;
+}
+
+
+@media screen and (max-width: 580px) {
+  #recipes {
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 580px) {
+  .lead {
+
+  .section-head {
+    padding-top: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #recipes {
+    height: 130vh;
+  }
+
+  @media screen and (max-width: 580px) {
+    #concept {
+      height: 135vh;
+    }
