@@ -8,7 +8,41 @@ body {
   line-height: 1.6;
 }
 
+/* Button */
+
+.trial-button {
+  background-color: #556B2F;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.trial-button:hover {
+  background-color: #637c36;
+  color: white;
+}
+
+.read-more {
+  background-color: #936c39;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.read-more:hover {
+  background-color: #a57940;
+  color: white;
+}
+
 /* Showcase, Overview */
+
 #showcase {
   margin:0;
   padding:0;
@@ -34,8 +68,54 @@ body {
   overflow-y: hidden;
 }
 
-/*Test*/
+/* Recipes */
 
+#recipes {
+  background: url('../img/desktop.jpeg') no-repeat center/cover;
+  height: 130vh;
+  margin: 0;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+#cook-smart {
+  font-size: 1.75rem;
+  padding-top: 2rem;
+}
+
+/* Footer */
+footer .footer-cols {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+footer .footer-cols ul {
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer li a:hover {
+  color: #555;
+}
+
+footer .footer-cols ul li:first-child {
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+}
 
 /* Utility Classes */
 .container {
@@ -56,6 +136,10 @@ body {
 
 .lead {
   font-size: 1.3rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Navagation */
@@ -168,19 +252,6 @@ nav a#openup {
 }
 
 /* For IE 6/7 (trigger hasLayout) */
-
-#recipes {
-  background: url('../img/desktop.jpeg') no-repeat center/cover;
-  height: 120vh;
-  margin: 0;
-  width: 100%;
-  overflow-y: hidden;
-}
-
-#cook-smart {
-  font-size: 1.75rem;
-  padding-top: 2rem;
-}
 
 
 @media screen and (max-width: 580px) {
